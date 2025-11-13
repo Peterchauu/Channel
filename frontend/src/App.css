@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #030303;
+  color: #d7dadc;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #030303;
+}
+
+.app-header {
+  background-color: #1a1a1b;
+  border-bottom: 1px solid #343536;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #d7dadc;
+  margin-bottom: 4px;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #818384;
+}
+
+.app-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 16px;
+  color: #818384;
+}
+
+.posts-feed {
+  margin-top: 12px;
+}
+
+.no-posts {
+  background-color: #1a1a1b;
+  border: 1px solid #343536;
+  border-radius: 4px;
+  padding: 40px;
+  text-align: center;
+  color: #818384;
+  font-size: 14px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #343536;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
