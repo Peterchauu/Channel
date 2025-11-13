@@ -1,3 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SSL Certificates & Keys - CRITICAL FOR SECURITY
+*.key
+*.pem
+*.p12
+*.pfx
+backend/certs/*.key
+backend/certs/*.pem
+# Optionally ignore all certs for security
+backend/certs/
+
+# Environment variables & secrets
+.env
+.env.local
+*.secret
+config.ini
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database (if you add one later)
+*.db
+*.sqlite
+*.sqlite3
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

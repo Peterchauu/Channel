@@ -1,0 +1,5 @@
+fastapi>=0.104.0  # FastAPI web framework
+uvicorn>=0.24.0   # ASGI server for FastAPI
+pillow>=10.0.0    # optional, for image support in Tkinter (PIL)
+requests>=2.31.0  # optional, for any HTTP backend calls
+pytest>=7.4.0     # optional, for running tests
